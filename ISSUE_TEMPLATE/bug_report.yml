@@ -1,0 +1,44 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. Do **not** include secrets, tokens, or `.env` contents.
+  - type: input
+    id: package
+    attributes:
+      label: Affected package / repo
+      description: e.g. @opoha/core, @opoha/create-opoha, plugin-stripe
+      placeholder: @opoha/core
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Expected vs actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps; include versions when known
+      placeholder: |
+        1. npx @opoha/create-opoha my-store --yes
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Node, pnpm, OS, package versions
+      placeholder: |
+        Node 22 / pnpm 11 / macOS
+        @opoha/core x.y.z
+    validations:
+      required: false

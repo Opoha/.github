@@ -37,6 +37,7 @@ cd my-store && pnpm install && pnpm docker:up && pnpm dev
 | Search | [`plugin-search-meilisearch`](https://github.com/Opoha/plugin-search-meilisearch) |
 | Commerce | [`plugin-tax-standard`](https://github.com/Opoha/plugin-tax-standard), [`plugin-coupon`](https://github.com/Opoha/plugin-coupon), [`plugin-discount`](https://github.com/Opoha/plugin-discount), [`plugin-rma`](https://github.com/Opoha/plugin-rma), [`plugin-mail-smtp`](https://github.com/Opoha/plugin-mail-smtp) |
 | Growth | [`plugin-cms`](https://github.com/Opoha/plugin-cms), [`plugin-product-review`](https://github.com/Opoha/plugin-product-review), [`plugin-wishlist`](https://github.com/Opoha/plugin-wishlist), [`plugin-marketplace`](https://github.com/Opoha/plugin-marketplace), [`plugin-pos`](https://github.com/Opoha/plugin-pos), [`plugin-subscription`](https://github.com/Opoha/plugin-subscription), [`plugin-workflow`](https://github.com/Opoha/plugin-workflow) |
+| Deferred | [`plugin-automation`](https://github.com/Opoha/plugin-automation) (placeholder pack; not in v1.0 cert set) |
 
 Author plugins against [opoha-plugin-sdk](https://github.com/Opoha/opoha-plugin-sdk). Start from [plugin-sample](https://github.com/Opoha/plugin-sample).
 

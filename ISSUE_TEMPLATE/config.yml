@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Opoha documentation / architecture
+    url: https://github.com/Opoha/opoha-workspace
+    about: Roadmap, ADRs, and cross-repo planning live in opoha-workspace.
+  - name: Security concern
+    url: https://github.com/Opoha/opoha-core/security/advisories/new
+    about: Please report security issues privately when possible (do not open a public issue with secrets).

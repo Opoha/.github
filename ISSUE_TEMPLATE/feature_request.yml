@@ -1,0 +1,37 @@
+name: Feature request
+description: Propose an improvement or new capability
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature work should fit the Opoha roadmap and package boundaries (core stays provider-agnostic; plugins own integrations).
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      description: Which package or plugin should own this?
+      placeholder: opoha-core / plugin-stripe / create-opoha
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem does this solve for app authors or operators?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Sketch the desired behavior (no need for a full design doc yet)
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
