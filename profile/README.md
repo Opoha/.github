@@ -7,7 +7,7 @@ Opoha is not a Shopify clone or a turnkey storefront. It is a modular GraphQL co
 ## Start here
 
 ```bash
-npx create-opoha@latest my-store
+npx @opoha/create-opoha@latest my-store
 cd my-store && pnpm install && pnpm docker:up && pnpm dev
 ```
 
@@ -17,7 +17,7 @@ cd my-store && pnpm install && pnpm docker:up && pnpm dev
 | **Admin** | [opoha-admin](https://github.com/Opoha/opoha-admin) |
 | **SDK** | [opoha-sdk](https://github.com/Opoha/opoha-sdk) |
 | **Plugin SDK** | [opoha-plugin-sdk](https://github.com/Opoha/opoha-plugin-sdk) |
-| **CLI / scaffold** | [opoha-cli](https://github.com/Opoha/opoha-cli) · [create-opoha](https://github.com/Opoha/create-opoha) |
+| **CLI / scaffold** | [opoha-cli](https://github.com/Opoha/opoha-cli) · [create-opoha](https://github.com/Opoha/create-opoha) (`@opoha/create-opoha`) |
 | **Docs** | [opoha-docs](https://github.com/Opoha/opoha-docs) |
 
 ## Why Opoha
